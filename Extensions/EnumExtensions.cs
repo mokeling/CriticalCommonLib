@@ -19,45 +19,45 @@ namespace CriticalCommonLib.Extensions
             switch (characterSex)
             {
                 case CharacterSex.Both:
-                    return "Both";
+                    return "皆可";
                 case CharacterSex.Either:
-                    return "Either"; 
+                    return "任一"; 
                 case CharacterSex.Female:
-                    return "Female"; 
+                    return "女性"; 
                 case CharacterSex.Male:
-                    return "Male"; 
+                    return "男性"; 
                 case CharacterSex.FemaleOnly:
-                    return "Female Only"; 
+                    return "只有女性"; 
                 case CharacterSex.MaleOnly:
-                    return "Male Only"; 
+                    return "只有男性"; 
                 case CharacterSex.NotApplicable:
                     return "N/A"; 
             }
 
-            return "Unknown";
+            return "未知";
         }
         public static string FormattedName(this CharacterRace characterRace)
         {
             switch (characterRace)
             {
                 case CharacterRace.Any:
-                    return "Any";
+                    return "任意种族";
                 case CharacterRace.Hyur:
-                    return "Hyur"; 
+                    return "人族"; 
                 case CharacterRace.Elezen:
-                    return "Elezen"; 
+                    return "精灵族"; 
                 case CharacterRace.Lalafell:
-                    return "Lalafell"; 
+                    return "拉拉菲尔族"; 
                 case CharacterRace.Miqote:
-                    return "Miqote"; 
+                    return "猫魅族"; 
                 case CharacterRace.Roegadyn:
-                    return "Roegadyn"; 
+                    return "鲁加族"; 
                 case CharacterRace.Viera:
-                    return "Viera"; 
+                    return "维埃拉族"; 
                 case CharacterRace.AuRa:
-                    return "Au Ra"; 
+                    return "敖龙族"; 
                 case CharacterRace.None:
-                    return "None"; 
+                    return "无"; 
             }
 
             return "N/A";
@@ -231,31 +231,31 @@ namespace CriticalCommonLib.Extensions
             switch (category)
             {
                 case InventoryCategory.CharacterBags:
-                    return "Bags";
+                    return "背包";
                 case InventoryCategory.CharacterSaddleBags:
-                    return "Saddle Bags";
+                    return "陆行鸟鞍囊";
                 case InventoryCategory.CharacterPremiumSaddleBags:
-                    return "Premium Saddle Bags";
+                    return "付费陆行鸟鞍囊";
                 case InventoryCategory.FreeCompanyBags:
-                    return "Free Company Bags";
+                    return "部队箱";
                 case InventoryCategory.CharacterArmoryChest:
-                    return "Armoury Chest";
+                    return "兵装库";
                 case InventoryCategory.GlamourChest:
-                    return "Glamour Chest";
+                    return "投影台";
                 case InventoryCategory.CharacterEquipped:
-                    return "Equipped";
+                    return "已装备";
                 case InventoryCategory.Armoire:
-                    return "Armoire";
+                    return "收藏柜";
                 case InventoryCategory.RetainerBags:
-                    return "Bags";
+                    return "雇员背包";
                 case InventoryCategory.RetainerMarket:
-                    return "Market";
+                    return "出售中";
                 case InventoryCategory.Currency:
-                    return "Currency";
+                    return "货币";
                 case InventoryCategory.Crystals:
-                    return "Crystals";
+                    return "水晶";
                 case InventoryCategory.RetainerEquipped:
-                    return "Equipped";
+                    return "雇员已装备";
             }
 
             return category.ToString();
@@ -267,7 +267,7 @@ namespace CriticalCommonLib.Extensions
                 return FormattedName(category.Value);
             }
 
-            return "Unknown";
+            return "未知";
         }
     }
 }
