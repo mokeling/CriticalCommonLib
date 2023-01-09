@@ -1,6 +1,6 @@
 ﻿### Common Library for Dalamud Plugins
 
-This is a library for some of the more generic functionality that Allagan Tools uses.
+这是一个用于 Allagan Tools 使用的一些更通用功能的库。
 
 Including but not limited to
 - Inventory Tracking
